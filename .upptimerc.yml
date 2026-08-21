@@ -1,0 +1,43 @@
+# GOAC Platform status page.
+#
+# This is the EXTERNAL half of the monitoring split. It runs on GitHub Actions,
+# so it is independent of both Hetzner (where the API lives) and Vercel (where
+# the dashboard lives) — it keeps reporting when either is down, which is the
+# one thing a monitor hosted on the box it watches can never do.
+#
+# The INTERNAL half is Uptime Kuma at https://monitor.goac.io, which watches
+# Postgres, Redis and the Celery/IMAP heartbeats. The two are NOT redundant:
+# they cover disjoint failure domains. Do not consolidate them.
+owner: espressojuice
+repo: goac-status
+
+sites:
+  - name: GOAC Dashboard
+    url: https://app.goac.io
+    # Vercel answers the unauthenticated root with a redirect to /login. That is
+    # the healthy response, so it has to be an accepted status or the page would
+    # report a permanent outage.
+    expectedStatusCodes: [200, 301, 302, 307, 308]
+  - name: Platform API
+    url: https://api.goac.io/health
+  - name: Documenso (e-signature)
+    url: https://sign.goac.io
+    expectedStatusCodes: [200, 301, 302, 307, 308]
+  - name: Monitoring (Uptime Kuma)
+    url: https://monitor.goac.io
+    # Kuma 302s to /dashboard when logged out.
+    expectedStatusCodes: [200, 302]
+
+status-website:
+  cname: status.goac.io
+  name: GOAC Platform Status
+  introTitle: "GOAC Platform Status"
+  introMessage: Live availability for the Gregg Orr Auto Collection internal platform. Checks run every five minutes from GitHub's infrastructure, independent of the servers being monitored.
+  navbar:
+    - title: Status
+      href: /
+
+# Open an issue when a site goes down, close it when it recovers. The issue IS
+# the incident record, which is why no separate incident tool is needed.
+i18n:
+  activeIncidents: Active incidents

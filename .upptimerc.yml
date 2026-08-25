@@ -31,8 +31,8 @@ sites:
 status-website:
   cname: status.goac.io
   name: GOAC Platform Status
-  introTitle: "GOAC Platform Status"
-  introMessage: Live availability for the Gregg Orr Auto Collection internal platform. Checks run every five minutes from GitHub's infrastructure, independent of the servers being monitored.
+  introTitle: "Is GOAC working right now?"
+  introMessage: "Green means the app is answering normally. Red means it isn't, and someone has been alerted. We test each service every five minutes from outside our own network, so if our servers go down this page stays up and tells you.
   navbar:
     - title: Status
       href: /

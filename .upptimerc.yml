@@ -32,7 +32,7 @@ status-website:
   cname: status.goac.io
   name: GOAC Platform Status
   introTitle: "Is GOAC working right now?"
-  introMessage: "Green means the app is answering normally. Red means it isn't, and someone has been alerted. We test each service every five minutes from outside our own network, so if our servers go down this page stays up and tells you.
+  introMessage: "Green means the app is answering normally. Red means it isn't, and someone has been alerted. We test each service every five minutes from outside our own network, so if our servers go down this page stays up and tells you."
   navbar:
     - title: Status
       href: /

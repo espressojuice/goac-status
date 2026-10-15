@@ -1,7 +1,7 @@
 url: https://api.goac.io/health
-status: up
-code: 200
-responseTime: 29
-lastUpdated: 2026-10-14T01:33:08.113Z
+status: down
+code: 502
+responseTime: 105
+lastUpdated: 2026-10-15T01:11:08.453Z
 startTime: 2026-08-21T18:10:27.772Z
 generator: Upptime <https://github.com/upptime/upptime>

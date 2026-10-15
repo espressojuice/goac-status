@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 474,
-    "timeDay": 247,
-    "timeWeek": 488,
-    "timeMonth": 495,
-    "timeYear": 474,
+    "time": 473,
+    "timeDay": 331,
+    "timeWeek": 479,
+    "timeMonth": 499,
+    "timeYear": 473,
     "dailyMinutesDown": {}
   },
   {
@@ -22,18 +22,20 @@
     "url": "https://api.goac.io/health",
     "icon": "https://icons.duckduckgo.com/ip3/api.goac.io.ico",
     "slug": "platform-api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 220,
-    "timeDay": 29,
-    "timeWeek": 210,
-    "timeMonth": 215,
-    "timeYear": 220,
-    "dailyMinutesDown": {}
+    "time": 218,
+    "timeDay": 67,
+    "timeWeek": 197,
+    "timeMonth": 214,
+    "timeYear": 218,
+    "dailyMinutesDown": {
+      "2026-10-15": 0
+    }
   },
   {
     "name": "Documenso (e-signature)",
@@ -46,11 +48,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 508,
-    "timeDay": 76,
-    "timeWeek": 327,
-    "timeMonth": 531,
-    "timeYear": 508,
+    "time": 507,
+    "timeDay": 267,
+    "timeWeek": 343,
+    "timeMonth": 543,
+    "timeYear": 507,
     "dailyMinutesDown": {}
   },
   {
@@ -64,11 +66,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 322,
-    "timeDay": 238,
-    "timeWeek": 310,
-    "timeMonth": 302,
-    "timeYear": 322,
+    "time": 325,
+    "timeDay": 347,
+    "timeWeek": 328,
+    "timeMonth": 316,
+    "timeYear": 325,
     "dailyMinutesDown": {}
   }
 ]

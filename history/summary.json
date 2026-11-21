@@ -4,17 +4,17 @@
     "url": "https://app.goac.io",
     "icon": "https://icons.duckduckgo.com/ip3/app.goac.io.ico",
     "slug": "goac-dashboard",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 495,
-    "timeDay": 202,
-    "timeWeek": 424,
-    "timeMonth": 510,
-    "timeYear": 495,
+    "time": 491,
+    "timeDay": 194,
+    "timeWeek": 394,
+    "timeMonth": 494,
+    "timeYear": 491,
     "dailyMinutesDown": {}
   },
   {
@@ -51,7 +51,7 @@
     "time": 470,
     "timeDay": 630,
     "timeWeek": 451,
-    "timeMonth": 417,
+    "timeMonth": 411,
     "timeYear": 470,
     "dailyMinutesDown": {}
   },
@@ -69,7 +69,7 @@
     "time": 333,
     "timeDay": 520,
     "timeWeek": 359,
-    "timeMonth": 334,
+    "timeMonth": 333,
     "timeYear": 333,
     "dailyMinutesDown": {}
   }

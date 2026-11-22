@@ -5,18 +5,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/app.goac.io.ico",
     "slug": "goac-dashboard",
     "status": "down",
-    "uptime": "99.88%",
-    "uptimeDay": "89.39%",
-    "uptimeWeek": "98.48%",
-    "uptimeMonth": "99.65%",
-    "uptimeYear": "99.88%",
-    "time": 486,
-    "timeDay": 137,
-    "timeWeek": 348,
-    "timeMonth": 481,
-    "timeYear": 486,
+    "uptime": "98.83%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "84.54%",
+    "uptimeMonth": "96.44%",
+    "uptimeYear": "98.83%",
+    "time": 480,
+    "timeDay": 27,
+    "timeWeek": 310,
+    "timeMonth": 477,
+    "timeYear": 480,
     "dailyMinutesDown": {
-      "2026-11-21": 153
+      "2026-11-22": 290,
+      "2026-11-21": 1268
     }
   },
   {
@@ -30,11 +31,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.82%",
-    "time": 212,
-    "timeDay": 38,
-    "timeWeek": 211,
-    "timeMonth": 194,
-    "timeYear": 212,
+    "time": 210,
+    "timeDay": 93,
+    "timeWeek": 214,
+    "timeMonth": 185,
+    "timeYear": 210,
     "dailyMinutesDown": {
       "2026-10-15": 241
     }
@@ -50,11 +51,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 466,
-    "timeDay": 164,
-    "timeWeek": 446,
-    "timeMonth": 403,
-    "timeYear": 466,
+    "time": 463,
+    "timeDay": 153,
+    "timeWeek": 429,
+    "timeMonth": 390,
+    "timeYear": 463,
     "dailyMinutesDown": {}
   },
   {
@@ -68,11 +69,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 332,
-    "timeDay": 288,
-    "timeWeek": 378,
-    "timeMonth": 332,
-    "timeYear": 332,
+    "time": 329,
+    "timeDay": 58,
+    "timeWeek": 365,
+    "timeMonth": 320,
+    "timeYear": 329,
     "dailyMinutesDown": {}
   }
 ]
